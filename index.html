@@ -12,6 +12,12 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+
+    <!-- <link rel="stylesheet" media="screen and (max-width: 575px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 576px)" href="tablette.css">
+    <link rel="styleshhet" media="screen and (min-width: 992px)" href="desktop.css"> -->
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="assets/css/style.css">
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -24,8 +30,8 @@
   <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navigation</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#">Navigations</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
@@ -47,12 +53,12 @@
   <div class="container-fluid">
 
       <div class="row">
-        <div class="col-3 bg-danger text-white d-flex flex-column justify-content-evenly">
+        <div class="col-4 bg-danger text-white d-flex flex-column justify-content-evenly small-lg">
           <div class="" id="entete">
             <h1 class="d-flex justify-content-center"><ins>FLOURY Teddy</ins></h1>
             <br /><br />
-            <p class="font-weight-bold">
-              email : floury.teddy1601@gmail.com<br />
+            <p class="d-flex justify-content-center">
+              email : <br/>floury.teddy1601 @gmail.com<br />
               téléphone : 07.68.16.91.46
               <br />
             </p>
@@ -61,7 +67,7 @@
 
   
           <div class="" id="Objectif">
-            <h2 class="d-flex justify-content-center" id="objectif">
+            <h2 class="d-flex justify-content-center h3" id="objectif">
               <ins>OBJECTIF</ins>
             </h2>
             <p class="">
@@ -75,18 +81,18 @@
           </div>
   
           <div class="" id="Competences">
-            <h2 class="d-flex justify-content-center"><ins>COMPÉTENCES</ins></h2>
+            <h2 class="d-flex justify-content-center h4"><ins>COMPÉTENCES</ins></h2>
             <p>Sociable, motivé, polyvalent, ponctuel, autonome.</p>
           </div>
 
           <div class="" id="hobbies">
-            <h2 class="d-flex justify-content-center"><ins>HOBBIES</ins></h2>
+            <h2 class="d-flex justify-content-center h3"><ins>HOBBIES</ins></h2>
             <p>Jeux vidéo, sport (football, musculation, marche...), réseaux sociaux.</p>
           </div>
 
         </div>
 
-        <div class="col-9 d-flex">
+        <div class="col-8 d-flex">
           <div class="colonnedeux" id="Experiences">
             <h2 class="d-flex justify-content-center" id="experience">
               <ins>Expériences</ins>
@@ -133,6 +139,7 @@
               <li class="list-group-item list-group-item-light">
                 <a href="https://github.com/Sug4rF1st/CV/raw/master/assets/Journal/L'%C3%89PIDIEN%20n%C2%B00.pdf">Journal définitif</a>
               </li>
+              <img src="src/images/epide.png" class="img-fluid" alt="logo épide">
 
 
               <h4 class="d-flex justify-content-center border" id="pompier">
@@ -152,7 +159,7 @@
               <li class="list-group-item list-group-item-light">
                 J'ai assisté a une intervention du GRIMP (Groupes de Reconnaissance et d'Intervention en milieu périlleux)
               </li>
-              <img src="assets/images/pompier.jpeg" class="img-fluid" alt="logo pompier">
+              <img src="src/images/pompier.jpeg" class="img-fluid" alt="logo pompier">
   
               <h4 class="d-flex justify-content-center border" id="peintrebat">
                 STAGE - PEINTRE EN BÂTIMENT - PEINTURE 80 - AMIENS - 2020
@@ -168,7 +175,7 @@
               <li class="list-group-item list-group-item-light">
                 Sécuriser une zone de chantier.
               </li>
-              <img src="assets/images/peinture80.png" class="img-fluid" alt="logo peinture 80">
+              <img src="src/images/peinture80.png" class="img-fluid" alt="logo peinture 80">
   
               <br /><br />
   
@@ -190,7 +197,7 @@
                 Relation client.
               </li>
               <li class="list-group-item list-group-item-light">Inventaire</li>
-              <img src="assets/images/carrefour.png" class="img-fluid" alt="logo carrefour">
+              <img src="src/images/carrefour.png" class="img-fluid" alt="logo carrefour">
   
               <br /><br />
   
@@ -208,7 +215,7 @@
               <li class="list-group-item list-group-item-light">
                 Relation client.
               </li>
-              <img src="assets/images/engie.png" class="img-fluid" alt="logo engie">
+              <img src="src/images/engie.png" class="img-fluid" alt="logo engie">
 
               <br /><br />
             </ul>
@@ -242,7 +249,7 @@
               Initialisation du langage Java.
             </li> 
             
-            <img src="assets/images/afpa.png" class="img-fluid" alt="logo afpa">
+            <img src="src/images/afpa.png" class="img-fluid" alt="logo afpa">
 
             <br /><br />
 
@@ -255,9 +262,9 @@
               Apprendre les bases en Anglais.
             </li>
             
-            <img src="assets/images/afpa.png" class="img-fluid" alt="logo afpa">
+            <img src="src/images/afpa.png" class="img-fluid" alt="logo afpa">
 
-            <img src="assets/images/Anglais.jpeg" class="img-fluid" alt="logo anglais">
+            <img src="src/images/Anglais.jpeg" class="img-fluid" alt="logo anglais">
 
             <br /><br />
 
@@ -275,7 +282,7 @@
             <li class="list-group-item list-group-item-light">
               Initiation au framework PHP (Symfony)
             </li>
-            <img src="assets/images/afpa.png" class="img-fluid" alt="logo afpa">
+            <img src="src/images/afpa.png" class="img-fluid" alt="logo afpa">
 
             <br /><br />
 
@@ -311,7 +318,7 @@
                 Lien vers exercice PHP.
               </a>
             </li>
-            <img src="assets/images/afpa.png" class="img-fluid" alt="logo afpa">
+            <img src="src/images/afpa.png" class="img-fluid" alt="logo afpa">
             
             <br /><br />
 
@@ -348,7 +355,7 @@
               <a href="https://github.com/Sug4rF1st/Evaluation_JS">
                 lien vers l'évaluation JavaScript.</a>
             </li>
-            <img src="assets/images/afpa.png" class="img-fluid" alt="logo afpa">
+            <img src="src/images/afpa.png" class="img-fluid" alt="logo afpa">
 
             <br /><br />
 
@@ -367,7 +374,7 @@
             <li class="list-group-item list-group-item-light">
               Diplôme de citoyenneté EPIDE.
             </li>
-            <img src="assets/images/epide.png" class="img-fluid" alt="logo epide">
+            <img src="src/images/epide.png" class="img-fluid" alt="logo epide">
           </ul>
 
           <h4 class="d-flex justify-content-center border" id="dve">
@@ -378,14 +385,14 @@
           <li class="list-group-item list-group-item-light">
             CLEA (Socle de Connaissances et de Compétences Professionnelles)
           </li>
-          <img src="assets/images/clea.png" class="img-fluid" alt="logo Cléa">
+          <img src="src/images/clea.png" class="img-fluid" alt="logo Cléa">
         </div>
       </div>
     </div>
 
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Navigation</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
